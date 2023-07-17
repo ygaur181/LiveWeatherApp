@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* App.js css */
+.mainContainer{
+    background: url("../images/brandon-morgan-3qucB7U2l7I-unsplash.jpg");
+    height: 100vh;
+}
+
+
+/* Searchbar.js css */
+.headingContainer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Heading{
+    color: white;
+    margin-bottom: 8%;
+    font-size: 2.4em;
+}
+
+.searchBar{
+    margin-bottom: 1%;
+    width: 50%;
+    height: 8%;
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    outline: none;
+}
+
+.searchButton{
+    width: 15%;
+    height: 8%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* output.js css */
+.outputContainer{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outputBox{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+    opacity: 10px;
+    text-align: center;
+}
+
+.weatherIcon{
+    margin-top: 2%;
+    height: 40%;
+}
+
+.celciusText{
+    font-size: 5em;
+    color: rgb(251, 251, 251);
+    margin-top: 5%;
+}
